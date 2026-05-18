@@ -19,6 +19,7 @@ def inicializar_bd_banco():
     conexion.commit()
     return conexion
 
+
 def procesar_pull_nomina():
     archivo_txt = "nomina_unapec.txt"
     
